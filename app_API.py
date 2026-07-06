@@ -18,7 +18,7 @@ st.set_page_config(page_title="Análisis Climático Histórico - Cuenca, Ecuador
 st.title("🌦️ Análisis Climático Histórico de Cuenca, Ecuador")
 st.caption(
     "Proyecto de Carga, Exploración, Limpieza, Transformación y Visualización de Datos — "
-    "Fuente: API de Open-Meteo (Historical Weather API)"
+    "Fuente: [API de Open-Meteo](https://open-meteo.com/en/docs/historical-weather-api) (Historical Weather API)"
 )
 
 # ==============================================================================
