@@ -20,7 +20,7 @@ st.caption(
     "Fuente: API de Open-Meteo (Historical Weather API)"
 )
 
-DB_NAME = "clima_cuenca.db"
+DB_NAME = os.path.join(tempfile.gettempdir(), "clima_cuenca.db")
 TABLE_NAME = "clima_cuenca"
 
 # Coordenadas de Cuenca, Ecuador
