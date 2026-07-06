@@ -21,6 +21,16 @@ st.caption(
     "Fuente: API de Open-Meteo (Historical Weather API)"
 )
 
+# ==============================================================================
+# DATOS DEL ESTUDIANTE
+# ==============================================================================
+st.info(f"""
+**👤 Estudiante:** Bianca Asencio
+**🎓 Carrera:** Big Data
+**📧 Correo:** bianca.asencio.est@tecazuay.edu.ec
+**👨‍🏫 Docente:** Mgtr. Verónica Paulina Chimbo Coronel
+""")
+
 DB_NAME = os.path.join(tempfile.gettempdir(), "clima_cuenca.db")
 TABLE_NAME = "clima_cuenca"
 
